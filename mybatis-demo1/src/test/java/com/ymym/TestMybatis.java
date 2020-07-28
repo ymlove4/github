@@ -23,5 +23,6 @@ public class TestMybatis {
             System.out.println(student);
 
         }
+
     }
 }
