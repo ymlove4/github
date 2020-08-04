@@ -1,6 +1,7 @@
 package com.ymym.dao;
 
 import com.ymym.domain.Student;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -12,5 +13,4 @@ import java.util.List;
 public interface StudentDao {
 
     List<Student> selectStudents();
-
 }
