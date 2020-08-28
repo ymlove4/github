@@ -7,7 +7,5 @@
     <!--声明组件扫描器（component-scan），组件就是Java对象
         base-package：指定注解在你项目中的包名
     -->
-    <context:component-scan base-package="com.ymym.yo01" />
-
-
+    <context:component-scan base-package="com.ymym.yo04" />
 </beans>
