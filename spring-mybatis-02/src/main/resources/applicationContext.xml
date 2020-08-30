@@ -36,8 +36,9 @@
         <property name="basePackage" value="com.ymym.dao" />
     </bean>
     <!--声明service-->
-    <bean id="studentService" class="com.ymym.service.StudentServiceImpl">
-        <property name="studentDao" ref="studentDao" />
+    <bean id="buyService" class="com.ymym.service.BuyImpl">
+        <property name="goodsDao" ref="goodsDao"/>
+        <property name="saleDao" ref="saleDao"/>
     </bean>
 
 
